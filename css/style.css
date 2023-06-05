@@ -1,0 +1,87 @@
+  /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap'); */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body  */
+body{
+    background-color: #C7E9B0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+/* heading  */
+h2{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+/* container  */
+.waa{
+    border: 3px solid #DDFFBB;
+    background-color: #DDFFBB;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+/* display  */
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* buttons  */
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: green;
+    padding: 5px;
+}
+
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+.btn3{
+    color: red;
+    background-color: white;
+}
+
+.btn3:hover{
+    color: white;
+    background-color: red;
+}
+
+/* lists  */
+#lists{
+    list-style: none;
+    text-align: center;
+    /* background-color:  white ; */
+    margin-top: 7px;
+}
+
+ li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+
+
+
